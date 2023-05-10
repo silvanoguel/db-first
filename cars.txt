@@ -2,18 +2,18 @@ cars
 ________________
 
 
-
-brand
-model
-version
-condition
-body style
-year
-price
-km
-transmission
-horsepower
-weight
-interior color
-exterior color
-fuel type
+id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
+brand - VARCHAR(50) - NOT NULL
+model - VARCHAR(50) - NOT NULL
+version  - VARCHAR(50)
+condition - VARCHAR(50)
+body style - VARCHAR(20)
+year - YEAR
+price - INT - NOT NULL
+km - INT - NOT NULL
+transmission - VARCHAR(20)
+horsepower - SMALLINT
+weight - SMALLINT
+interior color - VARCHAR(20)
+exterior color - VARCHAR(20)
+fuel type - VARCHAR(20)
