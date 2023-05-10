@@ -1,0 +1,19 @@
+cars
+________________
+
+
+
+brand
+model
+version
+condition
+body style
+year
+price
+km
+transmission
+horsepower
+weight
+interior color
+exterior color
+fuel type
